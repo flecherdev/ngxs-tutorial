@@ -1,0 +1,6 @@
+<section class="counter">
+    <button (click)="decrement()">-</button>
+    <p>{{ (counter$ | async)?.total }}</p>
+    <button (click)="increment()">+</button>
+    <button (click)="reset()">R</button>
+</section>
